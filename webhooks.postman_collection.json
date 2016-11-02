@@ -1,7 +1,7 @@
 {
 	"variables": [],
 	"info": {
-		"name": "REST API - WebHooks",
+		"name": "REST API - Webhooks",
 		"_postman_id": "733bc9e3-f13d-8dc0-aade-46637f8c2985",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
@@ -28,7 +28,7 @@
 			"response": []
 		},
 		{
-			"name": "Create A New Web Hook",
+			"name": "Create A New Webhook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks",
 				"method": "POST",
@@ -53,7 +53,7 @@
 			"response": []
 		},
 		{
-			"name": "Get WebHooks",
+			"name": "Get Webhooks",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks",
 				"method": "GET",
@@ -78,7 +78,7 @@
 			"response": []
 		},
 		{
-			"name": "Get A WebHook",
+			"name": "Get A Webhook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks/b7834892-e6e7-44c4-b163-835eba487f48",
 				"method": "GET",
@@ -103,7 +103,7 @@
 			"response": []
 		},
 		{
-			"name": "Update a WebHook",
+			"name": "Update a Webhook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks/b7834892-e6e7-44c4-b163-835eba487f48",
 				"method": "PUT",
@@ -178,7 +178,7 @@
 			"response": []
 		},
 		{
-			"name": "Delete  a WebHook",
+			"name": "Delete  a Webhook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks/b7834892-e6e7-44c4-b163-835eba487f48",
 				"method": "DELETE",
