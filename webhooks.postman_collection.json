@@ -1,7 +1,7 @@
 {
 	"variables": [],
 	"info": {
-		"name": "REST API - Webhooks",
+		"name": "Webhooks REST API",
 		"_postman_id": "733bc9e3-f13d-8dc0-aade-46637f8c2985",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
@@ -28,7 +28,7 @@
 			"response": []
 		},
 		{
-			"name": "Create A New Webhook",
+			"name": "Create A New Web Hook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks",
 				"method": "POST",
@@ -53,7 +53,7 @@
 			"response": []
 		},
 		{
-			"name": "Get Webhooks",
+			"name": "Get WebHooks",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks",
 				"method": "GET",
@@ -78,9 +78,9 @@
 			"response": []
 		},
 		{
-			"name": "Get A Webhook",
+			"name": "Get A WebHook",
 			"request": {
-				"url": "https://apitest.authorize.net/rest/v1/webhooks/b7834892-e6e7-44c4-b163-835eba487f48",
+				"url": "https://apitest.authorize.net/rest/v1/webhooks/2b74b546-8fde-4484-80ad-c530ee970577",
 				"method": "GET",
 				"header": [
 					{
@@ -103,9 +103,9 @@
 			"response": []
 		},
 		{
-			"name": "Update a Webhook",
+			"name": "Update a WebHook",
 			"request": {
-				"url": "https://apitest.authorize.net/rest/v1/webhooks/b7834892-e6e7-44c4-b163-835eba487f48",
+				"url": "https://apitest.authorize.net/rest/v1/webhooks/2b74b546-8fde-4484-80ad-c530ee970577",
 				"method": "PUT",
 				"header": [
 					{
@@ -121,7 +121,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"url\": \"http://requestb.in/19okx6x1\",\n  \"eventTypes\": [\n    \"net.authorize.payment.authorization.created\"\n  ],\n  \"status\": \"active\"\n}"
+					"raw": "{\n  \"status\": \"inactive\",\n  \"url\": \"http://requestb.in/1msxl041\",\n  \"eventTypes\": [\n    \"net.authorize.payment.authorization.created\"\n  ]\n}"
 				},
 				"description": ""
 			},
@@ -178,7 +178,7 @@
 			"response": []
 		},
 		{
-			"name": "Delete  a Webhook",
+			"name": "Delete  a WebHook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks/b7834892-e6e7-44c4-b163-835eba487f48",
 				"method": "DELETE",
@@ -197,6 +197,26 @@
 				"body": {
 					"mode": "raw",
 					"raw": "{\r\n  \"eventType\": [\"payment.authorization.created\",\"payment.capture.created\"],\r\n  \"url\": \"https://mysite/callback\",\r\n  \"status\": \"active\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Send a Test Notification",
+			"request": {
+				"url": "https://apitest.authorize.net/rest/v1/webhooks/2b74b546-8fde-4484-80ad-c530ee970577/pings",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
 				},
 				"description": ""
 			},
