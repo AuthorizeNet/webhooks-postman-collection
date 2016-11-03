@@ -12,10 +12,10 @@ To test with your own Authorize.Net sandbox account simply replace the Authoriza
 
 ##Examples
 
-Get Event Types - Lists the current set of events your account can enroll a webhook on.
-Create a Webhook - Enroll a http endpoint to receive a webhook for the specified event(s)
-Get a Webhook - Surely this ones obvious :-)
-Update a Webhook - Modify the endpoint, status, etc
-Get Notifications - Get a list of all the notifications that have been sent to your webhooks along with status info about the response.
-Get Notifications (by date range) - As above with filtering criteria
-Delete a web hook - remove a webhook.
+* Get Event Types - Lists the current set of events your account can enroll a webhook on.
+* Create a Webhook - Enroll a http endpoint to receive a webhook for the specified event(s)
+* Get a Webhook - Surely this ones obvious :-)
+* Update a Webhook - Modify the endpoint, status, etc
+* Get Notifications - Get a list of all the notifications that have been sent to your webhooks along with status info about the response.
+* Get Notifications (by date range) - As above with filtering criteria
+* Delete a web hook - remove a webhook.
