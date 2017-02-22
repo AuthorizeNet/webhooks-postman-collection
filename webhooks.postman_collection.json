@@ -17,6 +17,11 @@
 						"key": "Authorization",
 						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
 						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
 					}
 				],
 				"body": {
@@ -28,7 +33,7 @@
 			"response": []
 		},
 		{
-			"name": "Create A New Web Hook",
+			"name": "Create a New Webhook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks",
 				"method": "POST",
@@ -53,7 +58,7 @@
 			"response": []
 		},
 		{
-			"name": "Get WebHooks",
+			"name": "Get Webhooks",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks",
 				"method": "GET",
@@ -78,7 +83,7 @@
 			"response": []
 		},
 		{
-			"name": "Get A WebHook",
+			"name": "Get a Webhook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks/2b74b546-8fde-4484-80ad-c530ee970577",
 				"method": "GET",
@@ -103,7 +108,7 @@
 			"response": []
 		},
 		{
-			"name": "Update a WebHook",
+			"name": "Update a Webhook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks/2b74b546-8fde-4484-80ad-c530ee970577",
 				"method": "PUT",
@@ -153,7 +158,7 @@
 			"response": []
 		},
 		{
-			"name": "Get Notifications By Date",
+			"name": "Get Notifications by Date",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/notifications?from_date=2016-08-16&to_date=2016-08-20",
 				"method": "GET",
@@ -178,7 +183,7 @@
 			"response": []
 		},
 		{
-			"name": "Delete  a WebHook",
+			"name": "Delete  a Webhook",
 			"request": {
 				"url": "https://apitest.authorize.net/rest/v1/webhooks/b7834892-e6e7-44c4-b163-835eba487f48",
 				"method": "DELETE",
@@ -211,6 +216,11 @@
 					{
 						"key": "Authorization",
 						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
 						"description": ""
 					}
 				],
