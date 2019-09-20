@@ -15,7 +15,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"value": "Basic [InsertBase64APIKeyHere]",
 						"description": ""
 					},
 					{
@@ -40,7 +40,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"value": "Basic [InsertBase64APIKeyHere]",
 						"description": ""
 					},
 					{
@@ -70,7 +70,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"value": "Basic [InsertBase64APIKeyHere]",
 						"description": ""
 					}
 				],
@@ -95,7 +95,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"value": "Basic [InsertBase64APIKeyHere]",
 						"description": ""
 					}
 				],
@@ -120,7 +120,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"value": "Basic [InsertBase64APIKeyHere]",
 						"description": ""
 					}
 				],
@@ -145,7 +145,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"value": "Basic [InsertBase64APIKeyHere]",
 						"description": ""
 					}
 				],
@@ -170,7 +170,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"value": "Basic [InsertBase64APIKeyHere]",
 						"description": ""
 					}
 				],
@@ -195,7 +195,7 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"value": "Basic [InsertBase64APIKeyHere]",
 						"description": ""
 					}
 				],
@@ -215,7 +215,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Basic ODluRTRCZWg6N3MyZzN5V0MzVGZDOTJwMg==",
+						"value": "Basic [InsertBase64APIKeyHere]",
 						"description": ""
 					},
 					{
